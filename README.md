@@ -1,7 +1,7 @@
 # image_segment_train
 This is a copy of the tutorial shown here. https://github.com/TannerGilbert/FastAI-Code-Collection/blob/v1/Image_segmentation_on_CamVid_dataset.ipynb <br />
 
-I could only get it to run on Google colab. It doesn't want to run in Jupyter labs either. It works okay for images similar to the training images, 
+I could only get it to run on Google colab. It doesn't want to run in Jupyter notebook either. It works okay for images similar to the training images, 
 which admittedly has litle variety. Labeling images to make masks is time consuming and difficult. <br />
 
 Masks are in greyscale (0 being black and 255 being white) with pixel value of 1 being powder and pixel value of 0 being not powder which is why the label images look completely black.
